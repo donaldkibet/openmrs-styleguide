@@ -3,6 +3,8 @@ import "zone.js";
 
 import { registerAllCoreApplications } from "./root-config-lib";
 import { start } from "single-spa";
+import "./styleguide.css";
+import "./styleguide-test";
 
 export * from "./root-config-lib";
 
@@ -29,14 +31,3 @@ window.System.resolve = function(name) {
     return resolved;
   });
 };
-
-// We don't have a styleguide, so here's the very rudimentary version of one
-const css = `
-html {
-  background-color: #F4F5F8;
-}
-`;
-
-const styleEl = document.createElement("style");
-styleEl.textContent = css;
-document.head.appendChild(styleEl);

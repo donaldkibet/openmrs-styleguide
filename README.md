@@ -7,6 +7,16 @@
 A javascript module for setting up and configuring your SPA. See [openmrs-rfc-frontend](https://github.com/openmrs/openmrs-rfc-frontend)
 for what this project is and how it works.
 
+## Hackathon styleguide
+
+The styleguide for the hackathon is a set of global css classes that help you style your
+dom elements.
+
+The following CSS classes are available:
+
+- `primary`: This will change a button to be blue
+-
+
 ## Local development
 
 ```sh
